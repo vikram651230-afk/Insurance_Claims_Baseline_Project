@@ -1,0 +1,24 @@
+Insurance claims baseline results
+
+Dataset: E:\Machine Learning project\insurance_claims_baseline_project\data\insurance_claims_practice_dataset.csv
+
+selected_model_by_cv_f1_yes: Logistic Regression
+test_accuracy: 0.6333
+test_balanced_accuracy: 0.6197
+test_precision_yes: 0.4000
+test_recall_yes: 0.5882
+test_f1_yes: 0.4762
+
+Confusion matrix (actual rows [No, Yes] × predicted columns [No, Yes]):
+[[28 15]
+ [ 7 10]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+          No       0.80      0.65      0.72        43
+         Yes       0.40      0.59      0.48        17
+
+    accuracy                           0.63        60
+   macro avg       0.60      0.62      0.60        60
+weighted avg       0.69      0.63      0.65        60
